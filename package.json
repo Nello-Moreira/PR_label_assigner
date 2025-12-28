@@ -1,0 +1,22 @@
+{
+	"name": "pr_labels_assigner",
+	"engines": {
+		"node": ">=22.0.0"
+	},
+	"version": "1.0.0",
+	"main": "assign_labels.js",
+	"type": "module",
+	"scripts": {
+		"assign_labels": "node --env-file=.env assign_labels.js"
+	},
+	"author": {
+		"name": "Gabriel (Nello) Moreira",
+		"email": "g.moreira1@outlook.com",
+		"url": "https://github.com/Nello-Moreira"
+	},
+	"license": "MIT",
+	"description": "Pull request labels assigner",
+	"dependencies": {
+		"@octokit/rest": "22.0.1"
+	}
+}
