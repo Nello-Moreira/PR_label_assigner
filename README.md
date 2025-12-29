@@ -9,7 +9,7 @@ Feel free to steal, star or PR improvements.
 ## 30-Second Demo
 
 - PR opened against production → label 🔥 hot-fix
-- PR opened against master → label 🪲 bug-fix
+- PR opened against staging → label 🪲 bug-fix
 - PR opened against main → label 🚀 feature
 
 No more scrolling through 30 PR titles to find the one that’s blocking users.
